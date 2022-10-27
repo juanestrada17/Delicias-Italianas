@@ -6,7 +6,7 @@ export const Header = () => {
         <nav className='navbar row'>
             <div className='col-12 col-md-3'>
                 <div className='navbar-brand'>
-                    <img src='./images/logo.png' alt='Restaurante Delicias Italianas Logo' width="40%" height="40%"></img>
+                    <img src='./images/logo.png' alt='Restaurante Delicias Italianas Logo' width="100%" height="100%"></img>
                 </div>
             </div>
 
@@ -16,7 +16,7 @@ export const Header = () => {
                         type="text"
                         id="search_field"
                         class="form-control"
-                        placeholder='Que producto busca?'
+                        placeholder='Que deseas ordenar hoy?'
                         ></input>
                         <div className='input-group-append'>
                             <button id='search-btn' class='btn'>
