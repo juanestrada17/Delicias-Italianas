@@ -1,11 +1,23 @@
-import './App.css';
+import './Styles/App.css';
 import React from 'react'
+import Header from './components/layout/Header';
+import { Footer } from './components/layout/Footer';
 
 function App() {
   return (
     <div className="App">
-        <h1>Restaurante Delicias Italianas</h1>
-        <img src='./images/logo.png' alt='Logo-Delicias-Italianas'></img>
+        <Header />
+        <br />
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <center>Contenido Aqui</center>
+        <Footer />
     </div>
   );
 }
